@@ -134,8 +134,8 @@ if(balance <= 0) {
     console.log("you ran out of money!");
     break;
 }
-const playagain = prompt("Do you want to play again? (y/n)")
-if(playagain!= "y") break;
+const playagain = prompt("Do you want to play again? (yes/no)")
+if(playagain!= "yes") break;
 }
 };
 game();
