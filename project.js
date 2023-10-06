@@ -22,7 +22,7 @@ const SYMBOL_VALUES = {
 
 const deposit = () => {
     while(true){
-    const depositeAmount = prompt("enter a deposite amount: ")
+    const depositeAmount = prompt("enter a amount you want to deposite: ")
     const numberDepositeAmount = parseFloat(depositeAmount);
     if (isNaN(numberDepositeAmount) || numberDepositeAmount<= 0){
         console.log("Invalid deposite amount, try again");
